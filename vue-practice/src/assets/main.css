@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.handlers {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  border: 2px solid;
+  border-radius: 15%;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+  box-shadow: 5px 5px 5px 0 rgb(0, 0, 0, 0.2);
+  font-weight: bold;
+}
