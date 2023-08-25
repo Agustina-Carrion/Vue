@@ -1,8 +1,8 @@
 <template>
   <ul class="people-list">
     <TheCard
-      v-for="person in people"
-      :key="person.id"
+      v-for="(person, index) in people"
+      :key="index"
       :imgSrc="person.image"
       :name="person.name"
       :role="person.role"
