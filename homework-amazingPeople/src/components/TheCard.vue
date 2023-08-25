@@ -4,7 +4,7 @@
       <img :src="imgSrc" />
       <div>
         <h2>{{ name }}</h2>
-        <h4>{{ activity }}</h4>
+        <h4>{{ role }}</h4>
       </div>
     </div>
     <p>{{ description }}</p>
@@ -17,7 +17,7 @@ export default {
   props: {
     imgSrc: { type: String },
     name: { type: String },
-    activity: { type: String },
+    role: { type: String },
     description: { type: String },
     path: { type: String }
   }
