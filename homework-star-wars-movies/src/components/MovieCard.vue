@@ -1,7 +1,7 @@
 <template>
   <div class="movie-card">
     <div>Episode</div>
-    <div class="episode-number">{{ movieObject.episode_id }}</div>
+    <div class="episode-number">{{ intToRoman(movieObject.episode_id) }}</div>
     <div>{{ movieObject.title }}</div>
     <button @click="clickHandler">Learn more</button>
   </div>
